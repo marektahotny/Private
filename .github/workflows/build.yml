@@ -23,10 +23,11 @@ jobs:
           cache-disabled: true
 
       - name: Build debug APK
+        working-directory: plan-x4-android
         run: gradle assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: plan-x4-debug-apk
-          path: app/build/outputs/apk/debug/app-debug.apk
+          path: plan-x4-android/app/build/outputs/apk/debug/app-debug.apk

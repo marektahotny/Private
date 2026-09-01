@@ -9,6 +9,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Add
 import androidx.compose.material.icons.outlined.Remove
 import androidx.compose.material3.Button
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -23,6 +24,7 @@ import sk.planx4.core.model.Wall
 import sk.planx4.core.model.WallSide
 import sk.planx4.core.model.WallType
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun WallPropertiesSheet(
     wall: Wall,

@@ -1,4 +1,0 @@
-<resources>
-    <!-- Base platform theme; Compose (ui/theme/Theme.kt) owns the real Material3 theming. -->
-    <style name="Theme.PlanX4" parent="android:Theme.Material.Light.NoActionBar" />
-</resources>
